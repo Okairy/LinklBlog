@@ -22,7 +22,7 @@ header {
 #container {
 	position: relative;
 	width: 800px;
-	height: 500px;
+	height: auto;
 	margin: 0 auto;
 	box-shadow: #eaeaea 0 0 12px;
 	background: #fff;
