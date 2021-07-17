@@ -22,7 +22,7 @@ header {
 #container {
 	position: relative;
 	width: 800px;
-	height: auto;
+	height: 600px;
 	margin: 0 auto;
 	box-shadow: #eaeaea 0 0 12px;
 	background: #fff;
@@ -88,7 +88,7 @@ span[attr] {
 }
 @media screen and (max-width:768px) {
 header {
-	height: 46px;
+	height: 460px;
 	line-height: 46px;
 	font-size: 16px
 }
