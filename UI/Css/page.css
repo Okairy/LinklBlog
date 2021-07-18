@@ -1,0 +1,254 @@
+    <style type="text/css">
+        .site-top .lower nav {
+            display: block !important;
+        }
+        /** * 图片资源 */
+
+        .video-play, .loadvideo {
+            background-image: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Images/play@32x32.png)
+        }
+
+        .video-pause {
+            background-image: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Images/pause@32x32.png)
+        }
+
+        #loading-comments {
+            background-image: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Images/disqus-preloader.svg);
+        }
+
+        .search-form.is-visible {
+            background-image: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Images/other/iloli.gif);
+        }
+
+        #pagination .loading {
+            background-image: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Images/rotating-ball-o.svg);
+        }
+
+        #banner_wave_1 {
+            background-image: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Images/wave1.png) repeat-x;
+        }
+
+        #banner_wave_2 {
+            background-image: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Images/wave2.png) repeat-x;
+        }
+        /** 鼠标样式 */
+
+        a {
+            cursor: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Cur/ayuda.cur), auto
+        }
+
+            a:active {
+                cursor: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Cur/work.cur),alias
+            }
+
+        p {
+            cursor: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Cur/texto.cur),auto
+        }
+
+        body {
+            cursor: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Cur/normal.cur),auto;
+        }
+
+        .cd-top {
+            cursor: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Cur/No_Disponible.cur),auto;
+        }
+
+        .botui-actions-buttons-button {
+            cursor: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Cur/No_Disponible.cur),auto;
+        }
+
+        .button.botui-actions-buttons-button {
+            cursor: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Cur/No_Disponible.cur),auto;
+        }
+
+        .highlight-wrap code {
+            cursor: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/Cur/texto.cur),auto
+        }
+
+        .cd-top {
+            background: url(https://cdn.jsdelivr.net/gh/Okairy/LinklBlog/UI/images/scroll.png) no-repeat center;
+        }
+
+        .author-profile i, .post-like a, .post-share .show-share, .sub-text, .we-info a, span.sitename, .post-more i:hover, #pagination a:hover, .post-content a:hover, .float-content i:hover {
+            color: #fe9600
+        }
+
+        .feature i, .feature-title span, .download, .navigator i:hover, .links ul li:before, .ar-time i, span.ar-circle, .object, .comment .comment-reply-link, .siren-checkbox-radio:checked + .siren-checkbox-radioInput:after {
+            background: #fe9600
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #fe9600
+        }
+
+        .download, .navigator i:hover, .link-title, .links ul li:hover, #pagination a:hover, .comment-respond input[type='submit']:hover {
+            border-color: #fe9600
+        }
+
+        .entry-content a:hover, .site-info a:hover, .comment h4 a, #comments-navi a.prev, #comments-navi a.next, .comment h4 a:hover, .site-top ul li a:hover, .entry-title a:hover, #archives-temp h3, span.page-numbers.current, .sorry li a:hover, .site-title a:hover, i.iconfont.js-toggle-search.iconsearch:hover, .comment-respond input[type='submit']:hover {
+            color: #fe9600
+        }
+
+        #nprogress .bar {
+            background: #fe9600
+        }
+
+        #nprogress .peg {
+            box-shadow: 0 0 10px #fe9600, 0 0 5px #fe9600;
+        }
+
+        #pagination a:hover {
+            border: 1px solid #fe9600;
+        }
+
+        #pagination a:hover {
+            -webkit-box-shadow: 0 0 4px #fe9600;
+            -moz-box-shadow: 0 0 4px #fe9600;
+            -o-box-shadow: 0 0 4px #fe9600;
+            box-shadow: 0 0 4px #fe9600
+        }
+
+        .entry-content a:after {
+            background-color: #fe9600
+        }
+
+        .site-top ul li a:after {
+            background-color: #fe9600
+        }
+
+        .post-tags a:hover {
+            color: #fe9600
+        }
+
+        @@media (max-width: 860px) {
+            #mo-nav ul li a:hover {
+                color: #fe9600;
+            }
+        }
+
+        @@media (min-width: 860px) {
+            .chip-container {
+                margin-top: -60px;
+                ;
+            }
+        }
+
+        #gallery-filter {
+            text-align: center;
+        }
+
+        .masonry-gallery .gallery-item {
+            margin-bottom: 10px
+        }
+        /** 日志 */
+
+        .journals-line > li:nth-child(odd) .journal-label:after {
+            border-right-color: #e6e6fa;
+        }
+
+        .at_button {
+            background-color: #e6e6fa;
+            color: #000000;
+        }
+
+            .at_button:hover {
+                background: #f0ffff;
+                color: #000000;
+            }
+
+        .journals-line > li:nth-child(odd) .journal-label {
+            background: #e6e6fa;
+            color: #000000;
+        }
+
+        .journals-line > li .journal-label {
+            background: #f0ffff;
+            color: #000000;
+        }
+
+        .cd-top {
+            display: none;
+            height: 60px;
+            width: 50px
+        }
+
+            .cd-top span {
+                height: 10px;
+                width: 50px
+            }
+
+        .m-cd-top {
+            display: block;
+            bottom: 40px;
+        }
+
+        @@media screen and (max-width:860px) {
+            .m-cd-top {
+                bottom: 10px;
+            }
+        }
+        /*黑夜模式控件透明度*/
+
+        body.dark .header-info, body.dark .top-social img {
+            color: #fff;
+            background: rgba(0,0,0,0.7);
+        }
+
+        body.dark .notification, body.dark .the-feature.from_left_and_right .info {
+            background-color: rgba(0,0,0,0.7);
+        }
+
+        body.dark .skin-menu, body.dark .m-cd-top {
+            background-color: rgba(0,0,0,0.7) !important;
+        }
+        /*黑夜模式图像亮度*/
+
+        body.dark img, body.dark .highlight-wrap, body.dark iframe, body.dark .entry-content .aplayer {
+            filter: brightness(0.7);
+        }
+        /*黑夜模式主题色*/
+
+        body.dark .ar-time i, body.dark span.ar-circle, body.dark .scrollbar, body.dark .butterBar-message, body.dark .aplayer .aplayer-list ol li:hover {
+            background: #fe9600 !important;
+        }
+
+        body.dark .aplayer .aplayer-list ol li.aplayer-list-light .aplayer-list-cur, body.dark .user-menu-option a:hover, body.dark .menu-list li:hover, body.dark .font-family-controls button:hover, body.dark .openNav .icon, body.dark .openNav .icon:before, body.dark .openNav .icon:after, body.dark .openNav .icon:after, body.dark .site-top ul li a:after {
+            background-color: #fe9600;
+        }
+
+        body.dark #archives-temp h3, body.dark #moblieGoTop, body.dark #changskin, body.dark .the-feature.from_left_and_right a:hover .info p, body.dark .the-feature.from_left_and_right .info, body.dark .ins-section .ins-search-item:hover, body.dark .ins-section .ins-search-item:hover .ins-slug, body.dark .ins-section .ins-search-item:hover .ins-search-preview, body.dark .ins-section .ins-search-item:hover .iconfont, body.dark .float-content i:hover, body.dark .menhera-container .emoji-item:hover, body.dark .comment-respond .logged-in-as a:hover, body.dark .site-top ul li a:hover, body.dark i.iconfont.js-toggle-search.iconsearch:hover {
+            color: #fe9600;
+        }
+
+        body.dark .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon:hover path {
+            fill: #fe9600
+        }
+
+        body.dark #moblieGoTop:hover, body.dark #changskin:hover {
+            color: #fe9600;
+            opacity: .8;
+        }
+
+        body.dark .focusinfo .header-tou img {
+            box-shadow: inset 0 0 10px #fe9600;
+        }
+    </style>
+    <!-- 黑夜模式评论模块 -->
+    <style id="comment-style" type="text/css" media="noexist">
+        .halo-comment.dark button, .halo-comment.dark input, .halo-comment.dark select, .halo-comment.dark textarea, .halo-comment.dark i.iconfont.js-toggle-search.iconsearch, .halo-comment.dark .comment-textarea .input-label, .halo-comment.dark #emotion-toggle span, .halo-comment.dark .emotion-box, .halo-comment.dark .emotion-box .motion-container .emoji-item {
+            color: #eee !important;
+        }
+
+        .halo-comment.dark .body p {
+            color: #bebebe !important;
+        }
+
+        .halo-comment.dark input[type=color]:focus, .halo-comment.dark input[type=date]:focus, .halo-comment.dark input[type=datetime-local]:focus, .halo-comment.dark input[type=datetime]:focus, .halo-comment.dark input[type=email]:focus, .halo-comment.dark input[type=month]:focus, .halo-comment.dark input[type=number]:focus, .halo-comment.dark input[type=password]:focus, .halo-comment.dark input[type=range]:focus, .halo-comment.dark input[type=search]:focus, .halo-comment.dark input[type=tel]:focus, .halo-comment.dark input[type=text]:focus, .halo-comment.dark input[type=time]:focus, .halo-comment.dark input[type=url]:focus, .halo-comment.dark input[type=week]:focus, .halo-comment.dark textarea:focus {
+            color: #eee !important;
+            background-color: #31363b !important;
+        }
+
+        .halo-comment.dark .comment .info, .halo-comment.dark .comment .comment-time, .halo-comment.dark .comment-respond .logged-in-as, .halo-comment.dark .notification, .halo-comment.dark .comment-respond .logged-in-as a {
+            color: #9499a8;
+        }
+    </style>
