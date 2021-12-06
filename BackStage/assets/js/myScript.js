@@ -1,6 +1,10 @@
-﻿var website = "https://localhost:44375/";
-﻿var backStage = "https://localhost:44385/";
-var UI = "https://localhost:44393/";
+﻿var website = "http://api.linklblog.ikeolife.top/";
+﻿var backStage = "http://admin.linklblog.ikeolife.top/";
+var UI = "https://linklblog.ikeolife.top/";
+
+//﻿var website = "https://localhost:44375/";
+//﻿var backStage = "https://localhost:44385/";
+//var UI = "https://localhost:44393/";
 
 // 说明：JS时间Date格式化参数
 // 参数：格式化字符串如：'yyyy-MM-dd hh:mm:ss'
