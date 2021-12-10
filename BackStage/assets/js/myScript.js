@@ -1,6 +1,6 @@
 ﻿var website = "http://api.linklblog.ikeolife.top/";
 ﻿var backStage = "http://admin.linklblog.ikeolife.top/";
-var UI = "https://linklblog.ikeolife.top/";
+var UI = "http://linklblog.ikeolife.top/";
 
 //﻿var website = "https://localhost:44375/";
 //﻿var backStage = "https://localhost:44385/";
